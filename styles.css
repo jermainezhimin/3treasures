@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    overflow: hidden;
+    
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+canvas { 
+    width: 100vw; 
+    height: 100vh;
+}
+
+#selectables {
+    
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration:none;
+	z-index: 100;
+
+    padding-left: 15px;
+}
+
+#selectables:hover {
+    
+    text-decoration: underline;
+
+}
+
+p {
+    color: white;
+    margin: 0;
+    font-size: 100;
+    z-index: 100;
+}
+
+#image {
+    width: 100%;
+
+}
+
+#logo {
+    width: 10%;
+    min-width: 40px;
+    
+    position: absolute;
+    
+    right: 2%;
+    bottom: 2%;
+}
+
+
+#title {
+
+    text-align: center;
+
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+	z-index: 100;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display:block;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+}
